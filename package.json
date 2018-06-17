@@ -1,0 +1,25 @@
+{
+  "name": "jest-add-summary-reporter",
+  "version": "1.0.1",
+  "description": "A custom reporter for jest which adds a summary of failed tests at the end of the run",
+  "homepage": "https://github.com/tomenden/jest-add-summary-reporter",
+  "main": "index.js",
+  "scripts": {
+    "test": "#"
+  },
+  "author": "Tom Enden <enden.tom@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  },
+  "jest": {
+    "reporters": [
+      "default",
+      "<rootDir>/index.js"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^23.1.0",
+    "lodash": "^4.17.10"
+  }
+}
